@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scrollbar-width: none;
+        }
+      
+
+      
+
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        position:fixed;
+        top: 0;
+        width: 100vw;
+        height: 10vh;
+        background-color:aquamarine;
+
+
+    }
+
+    /* @media screen and (width<576px) {
+        .nav{}
+        
+    } {
+        
+    } */
+
+
+    .click{
+        display: flex;
+        align-items: center;
+        flex-basis: 20%;
+        justify-content: space-evenly;
+        font-size: 25px;  
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+   
+
+    
+
+    .content1{
+        display: flex;
+        /* gap: 100px; */
+        align-items: center;
+        
+    }
+
+    .content2{
+        display: flex;
+        /* gap:400px; */
+        padding-left: 200px;
+        align-items: center;
+        
+
+
+    }
+    .head{
+        
+        width: 80vw;
+        padding-left: 40px;
+        align-self: flex-end;
+    
+
+
+    }
+    
+
+    
+     .head h2{ 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    } 
+
+   
+
+
+
+</style>
+
+<body>
+    <div class="Container">
+        
+
+    <div class="nav">
+        
+        <h1>BEAUTY PRODUCTS</h1>
+    
+    
+
+    <div class="click">
+
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </div>
+    </div>
+</div> 
+<!-- closing for container. -->
+
+    <div class="head">
+        <img src="./beauty.jpg">
+        <h2>Be the Beauty</h2>
+    </div>
+    <br>
+    <br>
+
+    <div class="content1">
+        <div>
+            <img src="./img3.ts9.jpg" alt="" >
+        </div>
+        <div>
+
+            <h1>About </h1>
+            <h4><i>Tradition since 1889</i></h4>
+<h3>Beauty products can include cosmetics, skincare products, and beauty devices. The beauty industry is increasingly focused on sustainability and reducing its environmental impact. 
+</h3>
+      <h3>Luxury beauty
+        A segment of the beauty and skincare industry that focuses on high-quality products 
+        Beauty devices<br>
+        Devices that can be used to improve appearance, including hair care, facial, skin care, oral care, and eye care devices 
+        Beauty product considerations<hr>
+        *Environmental impact
+        The beauty industry is under pressure to adopt sustainable practices and reduce its impact on the environment 
+        <br>*Product certification
+        Some beauty websites add certifications to the product's image to build credibility 
+      <br> * Product trends
+        Some websites, like Cloud 10 Beauty, feature new finds, viral sensations, and classics </h3>     
+
+
+
+
+            
+        </div>
+    </div>
+    <!-- closing for content1. -->
+     <br>
+     <br>
+     <div class="content2">
+        <div>
+            
+
+
+            <h1>Our products</h1>
+            <br>
+            <br>
+          <h3><p> <b>1. Face care products other than a face mask<br>
+ 	 	2. Face mask<br>
+ 	 	3. Eye contour products<br>
+ 	 	4. Lip care products<br>
+ 	 	5. Hand care products<br>
+ 	 	6. Foot care products<br>
+ 	 	7. Body care products<br>
+ 	 	<h3></p>
+
+
+        </div>
+        <div>
+            <img src="img2.task9.jpg" alt="">
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="contact">
+        <h1>Contact</h1><hr>
+        <br>
+        <p><b>We offer huge discount on every product for any events.order either offline and can online.home delivery is also available. 
+        <br>
+        <h5>Beauty products,2nd lane, 43043 secunderabad </h5>
+        <br>
+        <p>You can also contact us by phone 00553123-2323 or email beauty@gmail.com, or you can send us a message here:</p>
+</div>
+<br>
+<form class="contact-form"> 
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="name" class="name">
+    <br>
+    <br>
+
+    <label for="people">How many products</label>
+    <input type="number" id="people" placeholder="products">
+    <br>
+    <br>
+
+    <label for="date">Date & Time</label>
+    <input type="datetime-local" id="date" placeholder="date">
+    <br>
+    <br>
+
+    <label for="message">Message \ Special requirements</label>
+    <textarea id="message" placeholder="message" ></textarea>
+    <br>
+    <br>
+
+    <button type="submit">SEND MESSAGE</button>
+
+   
+
+</form>
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+</div>
+    
+</body>
+</html>
